@@ -4,10 +4,9 @@
       <nav class="shift navbar jutify-content-between navbar-light bg-light">
         <div class="main-logo">
           <n-link class="navbar-brand" to="/">
-          <icon-base viewBox="0 0 551.13 551.13" icon-name="fake">
-                <icon-fake />
-              </icon-base>
-           <!--  <img src="~/assets/img/logo.png"  /> -->
+            <icon-base viewBox="0 0 512 512" icon-name="fake">
+              <icon-fake />
+            </icon-base>
           </n-link>
         </div>
         <div class="list-nav">
@@ -33,8 +32,8 @@
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Mot clés de recherche" />
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-             <icon-base viewBox="0 0 551.13 551.13" icon-name="fake">
-                <icon-fake />
+              <icon-base viewBox="0 0 512.005 512.005" icon-name="search">
+                <icon-search />
               </icon-base>
             </button>
           </form>
@@ -47,12 +46,14 @@
 <script>
 import IconBase from "../components/IconBase.vue";
 import IconFake from "../components/icons/IconFake.vue";
+import IconSearch from "../components/icons/IconSearch.vue";
 export default {
   name: "AppHeader",
   components: {
     IconBase,
-    IconFake
-  }
+    IconFake,
+    IconSearch,
+  },
 };
 </script>
 
